@@ -1,0 +1,13 @@
+prefix=S:/PROJECTS/LLMs/Bedrock/venv/Library
+exec_prefix=S:/PROJECTS/LLMs/Bedrock/venv/Library
+libdir=S:/PROJECTS/LLMs/Bedrock/venv/Library/lib
+sharedlibdir=S:/PROJECTS/LLMs/Bedrock/venv/Library/lib
+includedir=S:/PROJECTS/LLMs/Bedrock/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
